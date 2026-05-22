@@ -305,14 +305,22 @@ h1 {
   min-height: 82px;
   padding: 0 clamp(38px, 7vw, 86px);
   border-radius: 18px;
-  background: var(--red);
-  font-size: clamp(22px, 3vw, 34px);
-  text-transform: uppercase;
-  box-shadow: 0 24px 48px rgba(179, 38, 30, 0.3);
+  background:
+    linear-gradient(135deg, #1a73e8, var(--blue-dark));
+  font-size: clamp(22px, 3vw, 32px);
+  box-shadow: 0 24px 48px rgba(23, 78, 166, 0.3);
 }
 
 .install-button:hover {
-  background: #951f19;
+  background:
+    linear-gradient(135deg, #155ab6, #0f2f66);
+}
+
+.cta-note {
+  margin: 14px 0 0;
+  color: #475569;
+  font-size: 14px;
+  font-weight: 750;
 }
 
 .trust-row {
